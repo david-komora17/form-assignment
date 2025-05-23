@@ -1,0 +1,22 @@
+th{
+    border:1px solid ;
+    text-align: center;
+    font-size:30px;
+    font-family: roboto;
+}
+tr{
+    border: 1px solid;
+    text-align: center;
+}
+td{
+    border: 1px solid;
+    text-align: center;
+}
+.wrapper{
+    width: 600px;
+    margin: 5 auto;
+}
+body{
+    background-color: hsl(180, 100%, 97%);
+    font-weight: 50px;
+}

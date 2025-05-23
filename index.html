@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-citizen</title>
+    <link rel="stylesheet" href="style.css"
 </head>
 <body>
    <h1>E-citizen</h1><hr><br>
-   <h2>Government services simplified!</h2><br>
+   <h2>Government services simplified!</h2>
    <p>please fill in the following form</p>
+   <div>
    <form action="">
     <label for="name">name</label><br>
     <input type="text" placeholder="name" required><br><br>
@@ -17,10 +19,97 @@
     <label for="issues">services sought</label><br>
     <input type="text" placeholder="write your request!" rows="6" required><br><br>
     <label for="citizenship">citizen</label><br>
-    <input type="radio" name="citizenship" id="citizen"><br><br>
+    <input type="checkbox" name="citizenship" id="citizen"><br><br>
     <label for="citizenship">non-citizen</label><br>
-    <input type="radio" name="citizenship" id="citizen"><br><br>
-    <button for="submit">submit</button>
-</form>
+    <input type="checkbox" name="citizenship" id="citizen" value="kenyan"><br><br>
+    <h2><u>personal hobbies!</u></h2><br>
+    <label for="swimming">swimming</label>
+    <input type="checkbox" id="swimming" name="activity" value="swimming"><br>
+    <label for="soccer">soccer</label>
+    <input type="checkbox" id="soccer" name="activity" value="soccer"><br>
+    <label for="cricket">cricket</label>
+    <input type="checkbox" id="cricket" name="activity" value="cricket"><br><br>
+    <h2><U>if not a kenyan you are:</U></h2>
+    <label for="country">country:</label>
 
+    <select>>
+    <option value="USA">USA</option>
+    <option value="Canada">canada</option>
+    <option value="Mexico">mexico</option>
+    </select><br><br>
+
+
+    <fieldset>
+        <legend>all your names as they appear on the birth certificate</legend>
+        <label for="name">name</label>
+        <input type="text" id="f name"placeholder= Firstname required>
+        <label for="name">name</label>
+        <input type="text" id="s name"placeholder= secondname required>
+        <label for="name">name</label>
+        <input type="text" id="t name"placeholder= thirdname required>
+    </fieldset><br><br>
+    <fieldset>
+        <legend>sports</legend>
+        <label for="name">swimming</label>
+        <input type="radio" id="f name"placeholder= Firstname required>
+        <label for="name">football</label>
+        <input type="radio" id="s name"placeholder= secondname required>
+        <label for="name">tennis</label>
+        <input type="radio" id="t name"placeholder= thirdname required>
+    </fieldset><br><br>
+    <fieldset>
+      <legend>educational background</legend>
+      <label for="pre-primary">pre-primary</label>
+      <input type="text" id="pp" required><br><br>
+      <label for="lower-primary">lower-primary</label>
+      <input type="text" id="pp" required><br><br>
+      <label for="upper-primary">upper-primary</label>
+      <input type="text" id="pp" required><br><br>
+
+    </fieldset>
+    <label for="color">pick a color</label>
+    <input type="color" id="color" name="color">
+    <label for="time">time</label>
+    <input type="string" name="time" id="time">
+
+    <video src=""></video>
+    <video src=""></video>
+    <video controls width="300" poster="/assets/pexels-pixabay-327533.jpg">
+      <source src="/assets/1093662-hd_1920_1080_30fps.mp4">
+    </video>
+    <video controls  poster="thumbnail.jpg">
+      <source src="/13724770_2048_1080_30fps.mp4">
+    </video>
+    
+    <h1>hello</h1>
+
+    <button for="submit">submit</button>
+  </form>
+    <h3>My timetable</h3>
+    <section id="wrapper">
+  <table width="600">
+    <tr>
+      <th width="100">DAY</th>
+      <th width="100">mon</th>
+      <th width="100">tue</th>
+      <th width="100">wed</th>
+      <th width="100">thur</th>
+      <th width="100">fri</th>
+      <th width="100">sat</th>
+    </tr>
+    
+    <tr>
+      <th width="100">LANGUAGE</th>
+      <td width="100">java</td>
+      <td width="100">php</td>
+      <td width="100">javascript</td>
+      <td width="100">ruby</td>
+      <td width="100">python</td>
+      <td width="100">django</tds>
+    </tr>
+    </table>
+    </section>
+  </div>
+  <footer>for more inquiries...</footer>
 </body>
+</html>
